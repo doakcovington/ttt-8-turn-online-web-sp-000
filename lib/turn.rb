@@ -36,7 +36,7 @@ def move(board, index, character = "X")
   board[index] = character
 end
 
-
+#Runs one tic tac toe turn
 def turn(board)
   puts "Please enter 1-9:"
   #get input from user
